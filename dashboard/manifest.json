@@ -1,0 +1,14 @@
+{
+  "name": "aide-memoire",
+  "label": "Aide-Mémoire",
+  "description": "Lists ONLY the skills and plugins we created ourselves, excluding everything bundled with stock Hermes. Scanned live from the filesystem so it never goes stale.",
+  "icon": "NotebookPen",
+  "version": "1.1.0",
+  "tab": {
+    "path": "/aide-memoire",
+    "position": "after:skills"
+  },
+  "entry": "dist/index.js",
+  "css": "dist/style.css",
+  "api": "plugin_api.py"
+}

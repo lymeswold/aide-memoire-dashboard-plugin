@@ -1,0 +1,12 @@
+name: aide-memoire
+version: 1.1.0
+description: "Aide-Memoire dashboard tab: inventories the skills and plugins authored on this machine and excludes stock Hermes content, with an auditable reason per excluded item. Shared across Dashboard instances."
+author: "Chris (@lymeswold)"
+license: MIT
+requires_hermes: ">=0.21"
+platforms: [linux, macos, windows]
+tags: [dashboard, inventory, skills, plugins, provenance]
+# Dashboard-only plugin: the UI lives in dashboard/ and its backend router is mounted by the
+# web server at /api/plugins/aide-memoire/. register() intentionally registers no tools or hooks.
+provides_tools: []
+provides_hooks: []
